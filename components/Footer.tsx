@@ -1,5 +1,7 @@
 'use client'
 
+import { OPENCLAW_URL } from '@/lib/constants'
+
 export function Footer() {
   const currentYear = new Date().getFullYear()
 
@@ -13,6 +15,16 @@ export function Footer() {
           aria-label="OpenClaw - Home"
         >
           OpenClaw
+        </a>
+
+        {/* Powered by */}
+        <a
+          href={OPENCLAW_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-caption text-muted-gray hover:text-warm-gold transition-colors duration-200"
+        >
+          Powered by OpenClaw
         </a>
 
         {/* Copyright */}

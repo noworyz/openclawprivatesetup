@@ -1,5 +1,7 @@
 'use client'
 
+import { OPENCLAW_URL } from '@/lib/constants'
+
 export function TrustSection() {
   return (
     <section
@@ -7,7 +9,7 @@ export function TrustSection() {
       aria-labelledby="trust-heading"
     >
       <div className="container-wide">
-        <div className="flex items-center justify-center gap-3">
+        <div className="flex flex-col items-center gap-3 text-center">
           {/* OpenClaw badge */}
           <div className="flex items-center gap-2 text-deep-navy">
             <svg
@@ -28,7 +30,7 @@ export function TrustSection() {
             >
               Powered by{' '}
               <a
-                href="https://openclaw.ai"
+                href={OPENCLAW_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-deep-navy hover:text-warm-gold transition-colors underline underline-offset-2"
@@ -37,10 +39,27 @@ export function TrustSection() {
               </a>
             </span>
           </div>
-          <span className="text-muted-gray">•</span>
-          <span className="text-sm text-muted-gray">
-            Private AI infrastructure for professionals
-          </span>
+          {/* Explanation */}
+          <p className="text-sm text-muted-gray max-w-xl">
+            <a
+              href={OPENCLAW_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-deep-navy hover:text-warm-gold transition-colors underline underline-offset-2"
+            >
+              OpenClaw
+            </a>{' '}
+            is an{' '}
+            <a
+              href={OPENCLAW_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-deep-navy hover:text-warm-gold transition-colors underline underline-offset-2"
+            >
+              open-source
+            </a>{' '}
+            AI assistant platform. We&apos;re certified experts who deploy it securely for busy professionals.
+          </p>
         </div>
       </div>
     </section>

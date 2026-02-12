@@ -1,7 +1,7 @@
 'use client'
 
 import { Button } from '@/components'
-import { BOOKING_URL } from '@/lib/constants'
+import { BOOKING_URL, OPENCLAW_URL } from '@/lib/constants'
 
 export function Hero() {
   return (
@@ -32,6 +32,20 @@ export function Hero() {
             A private AI assistant that knows your business, manages your chaos, and never sleeps — deployed and configured by experts so you can skip the tech and get straight to results.
           </p>
 
+          {/* Differentiation */}
+          <p className="mt-6 max-w-2xl mx-auto text-body text-muted-gray leading-relaxed">
+            <a
+              href={OPENCLAW_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-warm-gold hover:text-warm-gold/80 underline underline-offset-2 transition-colors"
+            >
+              OpenClaw
+            </a>{' '}
+            is open-source and free. But configuring it securely with your integrations, training it on your context, and getting agents ready to work? That takes hours.{' '}
+            <span className="text-white font-medium">We do it in under 24 hours.</span>
+          </p>
+
           {/* CTA */}
           <div className="mt-12">
             <Button href={BOOKING_URL} variant="primary">
@@ -41,7 +55,7 @@ export function Hero() {
 
           {/* Trust text */}
           <p className="mt-6 text-caption text-muted-gray">
-            White-glove setup. Usually live within 48 hours.
+            White-glove setup by one dedicated expert. Usually live in under 24 hours. In-person available in the Dallas area.
           </p>
         </div>
       </div>

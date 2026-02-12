@@ -1,5 +1,5 @@
 import { HeaderWrapper, Footer } from '@/components'
-import { Hero, TrustSection, Benefits, WhatsIncluded, Process, WhoItsFor, FAQ, FinalCTA } from '@/sections'
+import { Hero, TrustSection, Benefits, WhyUs, WhatsIncluded, Process, WhoItsFor, FAQ, FinalCTA } from '@/sections'
 
 export default function Home() {
   return (
@@ -18,6 +18,7 @@ export default function Home() {
         <Hero />
         <TrustSection />
         <Benefits />
+        <WhyUs />
         <WhatsIncluded />
         <Process />
         <WhoItsFor />

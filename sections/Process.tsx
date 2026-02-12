@@ -13,9 +13,9 @@ const steps = [
   {
     number: 2,
     title: 'We Build It',
-    timeLabel: '24-48 hours.',
+    timeLabel: '24-<24 hours.',
     description:
-      'Our team deploys your private AI, configures your integrations, and trains it on your context.',
+      'I personally deploy your private AI, configures your integrations, and trains it on your context.',
   },
   {
     number: 3,

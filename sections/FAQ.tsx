@@ -4,6 +4,11 @@ import { Accordion } from '@/components'
 
 const faqItems = [
   {
+    question: 'What is OpenClaw?',
+    answer:
+      'OpenClaw is an open-source AI assistant that runs on your own hardware. It can manage email, calendar, messaging, and automate workflows — like having a 24/7 chief of staff. It\'s free to use, but setting it up properly takes technical expertise. That\'s where we come in. Learn more at openclaw.ai',
+  },
+  {
     question: 'How is this different from ChatGPT or other AI assistants?',
     answer:
       'Those are generic tools trained on the internet. Your OpenClaw assistant is private, runs on your infrastructure, and is configured specifically for how you work. It knows your context, your preferences, and your business — out of the box.',
@@ -26,7 +31,7 @@ const faqItems = [
   {
     question: 'How long until I\'m up and running?',
     answer:
-      'Most clients are live within 48 hours of the discovery call. Complex setups with many integrations may take slightly longer.',
+      'Most clients are live within <24 hours of the discovery call. Complex setups with many integrations may take slightly longer.',
   },
   {
     question: 'What if I need help after setup?',

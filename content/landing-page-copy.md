@@ -18,7 +18,7 @@ A private AI assistant that knows your business, manages your chaos, and never s
 **[Get Started →]**
 
 ### Supporting text (small, below CTA)
-White-glove setup. Usually live within 48 hours.
+White-glove setup. Usually live within <24 hours.
 
 ---
 
@@ -54,7 +54,7 @@ No APIs. No documentation. No weekend projects. Our team handles the entire tech
 **15 minutes.** We learn how you work — your tools, your style, your pain points. No prep needed.
 
 ### Step 2: We Build It
-**24-48 hours.** Our team deploys your private AI, configures your integrations, and trains it on your context.
+**24-<24 hours.** Our team deploys your private AI, configures your integrations, and trains it on your context.
 
 ### Step 3: You Start Delegating
 **Day one.** Your AI is ready. Handoff call included. Ongoing support if you need it.
@@ -97,7 +97,7 @@ OpenClaw Private Setup is for executives, founders, and high-net-worth individua
 **A:** Completely. Your AI runs on infrastructure you control. Your conversations, documents, and data never touch shared servers or train anyone else's models.
 
 ### Q: How long until I'm up and running?
-**A:** Most clients are live within 48 hours of the discovery call. Complex setups with many integrations may take slightly longer.
+**A:** Most clients are live within <24 hours of the discovery call. Complex setups with many integrations may take slightly longer.
 
 ### Q: What if I need help after setup?
 **A:** We include a hands-on onboarding session and 30 days of priority support. Extended support packages are available for clients who want ongoing optimization.

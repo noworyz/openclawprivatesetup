@@ -313,7 +313,7 @@ Suggested icons:
 ## 8. Trust Badge / Supporting Text
 
 ```
-White-glove setup. Usually live within 48 hours.
+White-glove setup. Usually live within <24 hours.
 ```
 
 | Property | Value |
@@ -351,7 +351,7 @@ White-glove setup. Usually live within 48 hours.
 │                       │   Get Started →     │                                    │
 │                       └─────────────────────┘                                    │
 │                                                                                  │
-│               White-glove setup. Usually live within 48 hours.                   │
+│               White-glove setup. Usually live within <24 hours.                   │
 │                                                                                  │
 │                                                                                  │
 │                                                                                  │
@@ -435,7 +435,7 @@ On scroll into view: cards fade in and translate up (20px) with staggered delay 
 │                                                                                  │
 │     Discovery Call            We Build It           You Start Delegating        │
 │                                                                                  │
-│      15 minutes.              24-48 hours.              Day one.                 │
+│      15 minutes.              24-<24 hours.              Day one.                 │
 │    We learn how you          Our team deploys        Your AI is ready.          │
 │    work — your tools,        your private AI,        Handoff call included.     │
 │    your style, your          configures your         Ongoing support if         │
