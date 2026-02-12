@@ -1,4 +1,4 @@
-import { HeaderWrapper, Footer } from '@/components'
+import { HeaderWrapper, Footer, ContactButton } from '@/components'
 import { Hero, TrustSection, Benefits, WhyUs, WhatsIncluded, Process, WhoItsFor, FAQ, FinalCTA } from '@/sections'
 
 export default function Home() {
@@ -26,6 +26,7 @@ export default function Home() {
         <FinalCTA />
       </main>
       <Footer />
+      <ContactButton />
     </>
   )
 }
