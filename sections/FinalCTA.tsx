@@ -39,7 +39,7 @@ export function FinalCTA() {
 
         {/* CTA Button */}
         <div className="mt-8">
-          <Button href="#contact" variant="primary">
+          <Button href="https://cal.com/tavleen-singh-gem3fe/introductory-discovery-call" variant="primary">
             Schedule Your Discovery Call
           </Button>
         </div>

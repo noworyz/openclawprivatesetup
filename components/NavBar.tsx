@@ -40,7 +40,7 @@ export function NavBar() {
         </a>
 
         {/* CTA Button */}
-        <Button href="#contact" variant="secondary" size="small">
+        <Button href="https://cal.com/tavleen-singh-gem3fe/introductory-discovery-call" variant="secondary" size="small">
           Get Started
         </Button>
       </nav>
