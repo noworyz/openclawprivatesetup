@@ -27,9 +27,9 @@ export function Hero() {
             <span className="block md:inline">Set Up For You.</span>
           </h1>
 
-          {/* Subheadline */}
+          {/* Subheadline - Entity definition for GEO */}
           <p className="mt-8 max-w-2xl mx-auto text-body-large-mobile md:text-body-large text-muted-gray leading-relaxed">
-            A private AI assistant that knows your business, manages your chaos, and never sleeps — deployed and configured by experts so you can skip the tech and get straight to results.
+            <strong className="text-white">OpenClaw Private Setup</strong> is a white-glove deployment service that sets up your private AI assistant in under 24 hours for $1,000. We handle security, integrations, and training so you get straight to results.
           </p>
 
           {/* Differentiation */}
@@ -42,8 +42,8 @@ export function Hero() {
             >
               OpenClaw
             </a>{' '}
-            is open-source and free. But configuring it securely with your integrations, training it on your context, and getting agents ready to work? That takes hours.{' '}
-            <span className="text-white font-medium">We do it in under 24 hours.</span>
+            is open-source and free. But configuring it securely with your integrations, training it on your context, and getting agents ready to work? That takes 10-20+ hours of technical work.{' '}
+            <span className="text-white font-medium">We do it in under 24 hours with 15 days of support included.</span>
           </p>
 
           {/* CTA */}

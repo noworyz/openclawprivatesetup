@@ -1,0 +1,30 @@
+# robots.txt for OpenClaw Private Setup
+# https://privatesetup.openclaw.ai
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://privatesetup.openclaw.ai/sitemap.xml
+
+# Allow AI crawlers explicitly
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# LLM content file
+# See: https://privatesetup.openclaw.ai/llms.txt

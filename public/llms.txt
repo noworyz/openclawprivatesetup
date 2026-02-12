@@ -1,0 +1,54 @@
+# OpenClaw Private Setup
+
+> White-glove deployment service for OpenClaw, the open-source AI assistant. We deploy, configure, and optimize your private AI so you can skip the technical complexity and get straight to results.
+
+## What We Do
+
+OpenClaw Private Setup is a done-for-you service that deploys OpenClaw on your own infrastructure in under 24 hours. OpenClaw is an open-source AI chief of staff that manages email, calendar, messaging, and automates workflows — running 24/7 on hardware you control.
+
+## Key Facts
+
+- **Service:** White-glove OpenClaw deployment and configuration
+- **Price:** $1,000 flat fee (includes setup + 15 days priority support)
+- **Timeline:** Under 24 hours from discovery call to live system
+- **Delivery:** Remote setup available worldwide; in-person available in Dallas, TX area
+- **Data Privacy:** 100% private — your data stays on your infrastructure, never touches shared servers
+- **Support:** Includes hands-on training session + 15 days of priority support
+
+## What's Included
+
+- Custom OpenClaw deployment on your hardware
+- Security hardening and access controls
+- Integration with your tools (email, calendar, messaging, etc.)
+- Personalized AI configuration based on your workflow
+- Hands-on onboarding and training session
+- 15 days of priority support
+- Extended support packages available
+
+## Who It's For
+
+- Executives who value time over tinkering
+- Founders scaling faster than their team
+- Professionals who want AI that knows their context
+- Anyone who wants a private AI assistant without the technical hassle
+
+## How It Works
+
+1. **Discovery Call** (15 minutes) — Tell us about your tools and workflow
+2. **We Build** — We deploy and configure everything
+3. **You're Live** — Working AI assistant in under 24 hours
+4. **Ongoing Support** — 15 days of priority help + training
+
+## Contact
+
+- Website: https://privatesetup.openclaw.ai
+- Email: hello@openclaw.ai
+- Location: Remote worldwide + in-person (Dallas, TX area)
+
+## Related
+
+- OpenClaw (open-source project): https://openclaw.ai
+- OpenClaw Documentation: https://docs.openclaw.ai
+
+---
+*Last updated: February 2026*
