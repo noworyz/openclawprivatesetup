@@ -1,6 +1,7 @@
 'use client'
 
 import { Button } from '@/components'
+import { BOOKING_URL } from '@/lib/constants'
 
 export function FinalCTA() {
   return (
@@ -39,7 +40,7 @@ export function FinalCTA() {
 
         {/* CTA Button */}
         <div className="mt-8">
-          <Button href="https://cal.com/tavleen-singh-gem3fe/introductory-discovery-call" variant="primary">
+          <Button href={BOOKING_URL} variant="primary">
             Schedule Your Discovery Call
           </Button>
         </div>

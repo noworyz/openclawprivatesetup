@@ -1,11 +1,12 @@
 'use client'
 
 import { Button } from '@/components'
+import { BOOKING_URL } from '@/lib/constants'
 
 export function Hero() {
   return (
     <section
-      className="relative min-h-screen flex items-center justify-center bg-hero-gradient overflow-hidden"
+      className="relative min-h-[calc(100vh-116px)] flex items-center justify-center bg-hero-gradient overflow-hidden"
       aria-labelledby="hero-heading"
     >
       {/* Subtle gold glow background accent */}
@@ -15,7 +16,7 @@ export function Hero() {
       />
 
       {/* Content */}
-      <div className="relative z-10 container-wide pt-24 pb-16 md:pt-32 md:pb-24">
+      <div className="relative z-10 container-wide py-16 md:py-24">
         <div className="max-w-4xl mx-auto text-center">
           {/* Headline */}
           <h1
@@ -33,7 +34,7 @@ export function Hero() {
 
           {/* CTA */}
           <div className="mt-12">
-            <Button href="https://cal.com/tavleen-singh-gem3fe/introductory-discovery-call" variant="primary">
+            <Button href={BOOKING_URL} variant="primary">
               Get Started
             </Button>
           </div>
