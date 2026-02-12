@@ -31,7 +31,7 @@ export function ContactButton() {
               </div>
             </a>
             <a
-              href="https://t.me/Noworyz87"
+              href="https://t.me/noworyz87"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 p-3 rounded-lg hover:bg-off-white transition-colors"
