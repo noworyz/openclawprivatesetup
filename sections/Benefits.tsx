@@ -8,7 +8,7 @@ const benefits = [
     icon: Shield,
     title: 'Your Private AI, Your Rules',
     description:
-      'Your assistant runs on infrastructure you control. Your data stays yours. No shared models, no corporate eavesdropping, no compromises.',
+      'Your assistant runs on infrastructure you control. Your data stays yours. No shared models, no corporate eavesdropping, no compromises. Configured to pass security review — audit trails, access controls, hardening included.',
   },
   {
     icon: Brain,

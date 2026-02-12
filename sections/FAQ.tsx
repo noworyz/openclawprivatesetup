@@ -9,6 +9,11 @@ const faqItems = [
       'Those are generic tools trained on the internet. Your OpenClaw assistant is private, runs on your infrastructure, and is configured specifically for how you work. It knows your context, your preferences, and your business — out of the box.',
   },
   {
+    question: 'Is this secure enough for my company?',
+    answer:
+      'Yes. We follow security best practices: your data stays on your hardware, we configure audit trails and access controls, and we can help you document it for your security team\'s review.',
+  },
+  {
     question: 'What do I need to provide?',
     answer:
       'Just 15 minutes on a discovery call. We\'ll ask about your tools (calendar, email, etc.), your workflow, and what you want to delegate. We handle everything else.',

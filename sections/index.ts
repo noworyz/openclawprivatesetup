@@ -1,5 +1,7 @@
 export { Hero } from './Hero'
+export { TrustSection } from './TrustSection'
 export { Benefits } from './Benefits'
+export { WhatsIncluded } from './WhatsIncluded'
 export { Process } from './Process'
 export { WhoItsFor } from './WhoItsFor'
 export { FAQ } from './FAQ'
