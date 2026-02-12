@@ -1,0 +1,6 @@
+export { Hero } from './Hero'
+export { Benefits } from './Benefits'
+export { Process } from './Process'
+export { WhoItsFor } from './WhoItsFor'
+export { FAQ } from './FAQ'
+export { FinalCTA } from './FinalCTA'
