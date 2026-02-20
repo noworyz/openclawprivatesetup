@@ -8,21 +8,21 @@ const steps = [
     title: 'Discovery Call',
     timeLabel: '15 minutes.',
     description:
-      'We learn how you work — your tools, your style, your pain points. No prep needed.',
+      'We learn how you work - your tools, your pain points, your style. No tech knowledge required. Just tell us what\'s drowning you.',
   },
   {
     number: 2,
-    title: 'We Build It',
-    timeLabel: '24-<24 hours.',
+    title: 'Your Setup Engineer Builds It Personally',
+    timeLabel: '<24 hours.',
     description:
-      'I personally deploy your private AI, configures your integrations, and trains it on your context.',
+      'One dedicated expert (not a ticket queue) deploys your private AI, configures integrations, and trains it on your context. You\'ll know their name. They\'ll know your business.',
   },
   {
     number: 3,
     title: 'You Start Delegating',
     timeLabel: 'Day one.',
     description:
-      'Your AI is ready. Handoff call included. Ongoing support if you need it.',
+      'Handoff call included. Start with simple tasks, scale from there. 15 days of support means we don\'t disappear after launch.',
   },
 ]
 

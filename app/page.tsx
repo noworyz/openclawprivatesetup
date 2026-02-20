@@ -1,5 +1,5 @@
 import { HeaderWrapper, Footer, ContactButton } from '@/components'
-import { Hero, TrustSection, Benefits, WhyUs, WhatsIncluded, Process, WhoItsFor, FAQ, FinalCTA } from '@/sections'
+import { Hero, TrustSection, Testimonials, Benefits, WhyUs, WhatsIncluded, Guarantee, Process, WhoItsFor, FounderStory, FAQ, FinalCTA } from '@/sections'
 
 export default function Home() {
   return (
@@ -16,12 +16,15 @@ export default function Home() {
       
       <main id="main-content" role="main">
         <Hero />
+        <Testimonials />
         <TrustSection />
         <Benefits />
         <WhyUs />
         <WhatsIncluded />
+        <Guarantee />
         <Process />
         <WhoItsFor />
+        <FounderStory />
         <FAQ />
         <FinalCTA />
       </main>

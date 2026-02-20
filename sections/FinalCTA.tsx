@@ -22,12 +22,17 @@ export function FinalCTA() {
           id="final-cta-heading"
           className="font-heading font-semibold text-h2-mobile md:text-h2-desktop text-white"
         >
-          Ready to Stop Managing and Start Delegating?
+          Ready to Reclaim 10-20 Hours Per Week?
         </h2>
 
         {/* Subtext */}
-        <p className="mt-6 text-body-large text-muted-gray max-w-lg mx-auto">
-          Book a discovery call. Fifteen minutes now saves you hundreds of hours later.
+        <p className="mt-6 text-body-large text-muted-gray max-w-2xl mx-auto">
+          Book your setup call today. Live in 24 hours. Start delegating tomorrow.
+        </p>
+        
+        {/* Value prop */}
+        <p className="mt-4 text-warm-gold font-medium">
+          Every week you wait is 20 hours you don't get back.
         </p>
 
         {/* Pricing */}
@@ -41,13 +46,13 @@ export function FinalCTA() {
         {/* CTA Button */}
         <div className="mt-8">
           <Button href={BOOKING_URL} variant="primary">
-            Schedule Your Discovery Call
+            Book Your Setup Call
           </Button>
         </div>
 
         {/* Trust line */}
         <p className="mt-6 text-caption text-muted-gray">
-          No commitment. No credit card. Just a conversation.
+          No commitment required. 100% satisfaction guarantee. 7-day full refund if you're not thrilled.
         </p>
       </div>
     </section>

@@ -42,11 +42,36 @@ export function WhatsIncluded() {
           id="whats-included-heading"
           className="font-heading font-semibold text-h2-mobile md:text-h2-desktop text-deep-navy text-center mb-4"
         >
-          Everything in Your $1,000 Package
+          Your Time Is Worth $500-2,000/Hour. Why Spend 20 on Setup?
         </h2>
-        <p className="text-body-large text-muted-gray text-center mb-12 md:mb-16 max-w-xl mx-auto">
-          A complete, white-glove setup with nothing left out.
+        <p className="text-body-large text-muted-gray text-center mb-8 max-w-3xl mx-auto">
+          Most executives who try to "DIY this over the weekend" are still stuck 3 months later. 
+          We deploy your private AI in under 24 hours—so you can delegate your first task tomorrow, not "someday."
         </p>
+
+        {/* ROI Callout */}
+        <div className="bg-warm-gold/5 border-2 border-warm-gold/20 rounded-lg p-6 md:p-8 mb-12 max-w-3xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-center">
+            <div>
+              <div className="text-sm text-muted-gray mb-2">What 20 hours of your time is worth:</div>
+              <div className="text-2xl font-bold text-warm-gold">$10K-40K</div>
+              <div className="text-sm text-slate mt-1">in strategic work or billable hours</div>
+            </div>
+            <div>
+              <div className="text-sm text-muted-gray mb-2">What our setup costs:</div>
+              <div className="text-2xl font-bold text-deep-navy">$1,000</div>
+              <div className="text-sm text-slate mt-1">Complete setup + 15 days support</div>
+            </div>
+          </div>
+          <p className="text-center text-body text-slate mt-6 font-medium">
+            Save 10-20 hours/week = 700+ hours/year reclaimed. That's $350K+ in time value annually.
+          </p>
+        </div>
+
+        {/* Package header */}
+        <h3 className="font-heading font-semibold text-xl md:text-2xl text-deep-navy text-center mb-8">
+          Everything Included in Your $1,000 Package
+        </h3>
 
         {/* Two-Column Checklist */}
         <div className="bg-off-white rounded-lg border border-light-gray p-8 md:p-12">

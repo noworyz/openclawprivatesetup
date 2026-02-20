@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { MessageCircle, Mail, X, Send } from 'lucide-react'
+import { MessageCircle, Mail, X, Send, Phone } from 'lucide-react'
 
 const CONTACT_EMAIL = 'tavleen@openclawprivatesetup.com' // Update with real email
 
@@ -42,6 +42,20 @@ export function ContactButton() {
               <div>
                 <p className="font-medium text-deep-navy">Telegram</p>
                 <p className="text-sm text-slate">Chat instantly</p>
+              </div>
+            </a>
+            <a
+              href="https://wa.me/17815395566?text=Hi%2C%20I%27m%20interested%20in%20OpenClaw%20Private%20Setup"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 p-3 rounded-lg hover:bg-off-white transition-colors"
+            >
+              <div className="w-10 h-10 bg-green-500/10 rounded-full flex items-center justify-center">
+                <Phone className="w-5 h-5 text-green-500" />
+              </div>
+              <div>
+                <p className="font-medium text-deep-navy">WhatsApp</p>
+                <p className="text-sm text-slate">Message us on WhatsApp</p>
               </div>
             </a>
           </div>

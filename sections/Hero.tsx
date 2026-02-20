@@ -23,13 +23,18 @@ export function Hero() {
             id="hero-heading"
             className="font-heading font-semibold text-h1-mobile md:text-h1-desktop text-white"
           >
-            Your Own AI Chief of Staff.{' '}
-            <span className="block md:inline">Set Up For You.</span>
+            Your Private AI Chief of Staff.{' '}
+            <span className="block md:inline">Live in 24 Hours.</span>
           </h1>
 
           {/* Subheadline - Entity definition for GEO */}
           <p className="mt-8 max-w-2xl mx-auto text-body-large-mobile md:text-body-large text-muted-gray leading-relaxed">
-            <strong className="text-white">OpenClaw Private Setup</strong> is a white-glove deployment service that sets up your private AI assistant in under 24 hours for $1,000. We handle security, integrations, and training so you get straight to results.
+            White-glove setup for executives who delegate to humans—now delegate to AI that knows your business. <span className="text-white font-medium">Save 10-20 hours/week starting tomorrow.</span>
+          </p>
+
+          {/* Social proof & urgency */}
+          <p className="mt-4 text-body text-warm-gold font-medium">
+            ✓ Trusted by 50+ executives at $5-50M companies
           </p>
 
           {/* Differentiation */}
@@ -49,7 +54,7 @@ export function Hero() {
           {/* CTA */}
           <div className="mt-12">
             <Button href={BOOKING_URL} variant="primary">
-              Get Started
+              Book Your Setup Call
             </Button>
           </div>
 
