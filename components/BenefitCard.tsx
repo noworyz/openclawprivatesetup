@@ -25,7 +25,7 @@ export function BenefitCard({
     'hover:shadow-glow',
     {
       'bg-charcoal border-slate hover:border-warm-gold/50': variant === 'dark',
-      'bg-white border-light-gray hover:border-warm-gold/50 shadow-sm hover:shadow-lg': variant === 'light',
+      'bg-white border-gray-200 hover:border-warm-gold/50 shadow-md hover:shadow-lg': variant === 'light',
     },
     className
   )
@@ -48,7 +48,7 @@ export function BenefitCard({
     'mt-3 text-body leading-relaxed',
     {
       'text-muted-gray': variant === 'dark',
-      'text-slate': variant === 'light',
+      'text-gray-700': variant === 'light',
     }
   )
 

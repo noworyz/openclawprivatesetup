@@ -26,7 +26,7 @@ export function Guarantee() {
       className="bg-deep-navy py-16 md:py-24"
       aria-labelledby="guarantee-heading"
     >
-      <div className="container-content">
+      <div className="container-wide">
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">
           <h2
